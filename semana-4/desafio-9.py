@@ -1,3 +1,8 @@
+##Enunciado:
+#Retomar el ejercicio del desafío anterior pero solo CARGAR en la LISTA aquellas notas que estén entre 6 y 10 (inclusive)
+#MOSTRAR el contenido de cada uno de los valores que existen en la LISTA.
+
+##Solución:
 # Programa para cargar un conjunto de notas de exámenes entre 6 y 10
 
 # Pedimos al usuario la cantidad de notas que desea ingresar
