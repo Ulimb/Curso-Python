@@ -1,3 +1,8 @@
+##Enunciado
+#Desarrollar un programa que tenga un diccionario con nombres, apellidos y DNIs.
+#A continuación, se deberá ingresar 3 personas con los datos y al final informar su contenido por cada persona.
+
+##Solución:
 # 1. Creamos un diccionario vacío para almacenar los datos de las personas
 personas = {}
 

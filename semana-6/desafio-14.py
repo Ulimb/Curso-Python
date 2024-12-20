@@ -1,3 +1,7 @@
+##Enunciado
+#Retomar el desafío anterior e indicar cuantos y que DNI superan el valor de 40 millones.
+
+##Solución:
 # 1. Creamos un diccionario vacío para almacenar los datos de las personas
 personas = {}
 
