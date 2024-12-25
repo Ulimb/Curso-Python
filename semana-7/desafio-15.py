@@ -7,6 +7,7 @@
 #Al final, prueba la función con diferentes palabras.
 #(Nota: Asumimos que el usuario ingresará una palabra).
 
+##Solución:
 # Definir la función contar_vocales
 def contar_vocales(palabra):
     vocales = "aeiouáéíóúAEIOUÁÉÍÓÚ"

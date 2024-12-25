@@ -1,0 +1,51 @@
+import csv
+
+# Nombre del archivo CSV
+archivo_csv = "datos.csv"
+
+# Ciudad a buscar (poner las letras en minúsculas)
+ciudad_a_buscar = input("Ingrese la ciudad para filtrar: ").lower()
+
+# Lista para almacenar las filas que coinciden con la ciudad
+filas_coincidentes = []
+
+# Leer el archivo CSV y filtrar por ciudad
+with open(archivo_csv, 'r') as archivo:
+    lector = csv.DictReader(archivo)
+    for fila in lector:
+        # recupero la ciudad de cada persona (en minúscula)
+        ciudad = fila['Ciudad'].lower()
+        if ciudad == ciudad_a_buscar:
+            # Si la ciudad de la fila actual coincide con la ciudad buscada,
+            # entonces guardo la fila entera en la lista "filas_coincidentes".
+            filas_coincidentes.append(fila)
+
+# Mostrar las filas coincidentes
+if filas_coincidentes:
+    print(f"Personas en la ciudad de {ciudad_a_buscar.capitalize()}:")
+    for fila in filas_coincidentes:
+        print(f"Nombre: {fila['Nombre']}, Edad: {fila['Edad']}, Ciudad: {fila['Ciudad']}")
+else:
+    print(f"No se encontraron personas en la ciudad de {ciudad_a_buscar.capitalize()}.")
+
+-------------------------------------------------------------------------------------------
+
+# Para crear un menú de opciones podría hacer lo siguiente:
+
+op=-1
+while op != 0: #Se ejecuta mientras op sea diferente de 0
+    #Muestra las opciones con un print, donde coloco el string con \n para los saltos de linea por cada opción mostrada
+    print('0.Salir\n1.BuscarPorNombre\n2.BuscarPorEdad\n3.BuscarPorCiudad') 
+    op = int(input('Ingresa una opción: ')) # Usuario ingresa opción
+   
+    if op == 0:
+        print('Finalizando el programa...')
+    elif op == 1:
+        buscarPorNombre()
+    elif op == 2:
+        buscarPorEdad()
+    elif op == 3:
+        buscarPorCiudad()
+    else:
+        print('Ingrese una opcion valida\n')
+ 

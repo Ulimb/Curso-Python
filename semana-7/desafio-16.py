@@ -4,6 +4,7 @@
 #Prueba la función con diferentes valores de base y altura.
 #Puedes incluir manejo de excepciones (opcional).
 
+##Solución:
 def calcular_area_triangulo(base, altura):
     try:
         # Verificar que base y altura sean números válidos
