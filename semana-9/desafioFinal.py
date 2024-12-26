@@ -19,7 +19,6 @@
 #Guardar los resultados filtrados en un nuevo archivo CSV o TXT.
 
 import csv
-archivo = 'datos.csv'
 
 # Función para cargar los datos del archivo CSV como una lista de diccionarios
 def cargar_datos(nombre_archivo):
@@ -61,7 +60,7 @@ def mostrar_menu():
 
 # Programa principal
 def main():
-    archivo = '/mnt/data/datos.csv'
+    archivo = 'datos.csv'
     datos = cargar_datos(archivo)
 
     if not datos:
