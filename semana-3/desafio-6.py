@@ -1,3 +1,7 @@
+##Enunciado
+#Realizar un programa donde se ingresen 5 números e informe el promedio de los números ingresados.
+
+##Resolución
 # Inicializar la suma de los números
 suma = 0
 

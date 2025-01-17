@@ -1,3 +1,8 @@
+##Enunciado
+#Realizar un programa en el cual se ingresen dos numeros e informe si el primero es múltiplo del segundo.
+#En caso contrario deberá generar un mensaje adecuado.
+
+##Resolución
 # Pedimos al usuario que ingrese dos números enteros
 numero1 = int(input("Ingrese el primer número: "))
 numero2 = int(input("Ingrese el segundo número: "))

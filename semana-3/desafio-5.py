@@ -1,3 +1,12 @@
+##Enunciado
+#Repaso de la clase 2: Estructuras condicionales
+#Realizar un programa en el cual se ingrese
+#1.El límite inferior de un intervalo
+#2.El límite superior del mismo intervalo
+#3.Un valor entero
+#Indicar si el valor entero ingresado en el punto 3 se encuentra dentro del intervalo definido por los valores del punto (1) y del punto (2).
+
+##Resolución
 # Solicitar los límites del intervalo y el valor entero
 limite_inferior = int(input("Ingrese el límite inferior del intervalo: "))
 limite_superior = int(input("Ingrese el límite superior del intervalo: "))
